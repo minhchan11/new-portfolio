@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Minh Phuong's Portfolio";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model IEnumerable<Portfolio.Models.Github>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Minh Phuong Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Playfair+Display|Work+Sans:100,300" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+<body>
+            <!-- short intro about website -->
+            <p class="info">
+                <strong>Minh Phuong is an aspiring web developer.</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis magna et augue dapibus viverra laoreet in nulla. <span class="random">Integer nisi purus, efficitur quis sodales ac, fringilla in mi</span>. Quisque erat lectus, venenatis ut auctor eget, <em>rutrum vel elit</em>. Quisque eget felis vel nunc blandit convallis. Suspendisse luctus in velit et faucibus:
+            </p>
+            <ol>
+                <li>Integer nisi purus</li>
+                <li>Ipsum dolor sit</li>
+                <li>Dapibus </li>
+                <li>Sodales</li>
+            </ol>
+            <p class="info">Below are some examples of his projects. The language of creation for all projects is HTML:</p>
+
+            <!-- columns for 4 projects -->
+            <div class="row">
+                <div class="col-md-3 project proj-img1">
+                    <p><a href="@Model.ElementAt(0).Url">Amal</a></p>
+                </div>
+                <div class="col-md-3 project proj-img2">
+                    <p><a href="@Model.ElementAt(1).Url">Word Count</a></p>
+                </div>
+                <div class="col-md-3 project proj-img3">
+                    <p class="project3"><a href="@Model.ElementAt(2).Url">Book<br><br>Club</a></p>
+                </div>
+                <div class="col-md-3 project proj-img4">
+                    <p><a href="@Model.ElementAt(3).Url">Hair Salon</a></p>
+                </div>
+            </div>
+</body>
+</html>
