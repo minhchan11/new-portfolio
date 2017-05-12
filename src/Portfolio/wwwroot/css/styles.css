@@ -1,0 +1,230 @@
+h1 {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 200px;
+  letter-spacing: 10px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-align: center;
+  color: #e5ddc5;
+  opacity: 0.6;
+}
+
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 100px;
+  font-weight: 300;
+  letter-spacing: 10px;
+  text-align: center;
+  color: #e0ddd2;
+  opacity: 0.8;
+}
+
+p, ol {
+  font-family: 'Playfair Display', serif;
+}
+
+.row a {
+  color:#fcfcf7;
+}
+
+p.list {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+ul {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  font-size: 17px;
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  list-style: none;
+  display: table-cell;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+}
+
+blockquote {
+  position: absolute;
+  bottom: 20px;
+  padding-top: 10%;
+  padding-right: 30px;
+  font-style: italic;
+  font-size: 50px;
+  text-align: right;
+  opacity: 0.3;
+}
+
+blockquote>footer {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
+
+.intro {
+  position: static;
+  top:0;
+  display: block;
+  background-image: url(../img/background-intro.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.sidebar {
+  position: relative;
+  display: inline-block;
+  top: 20px;
+  width: 30%;
+  height: 100vh;
+  float: left;
+  background: #d7dee8;
+  opacity: 0.4;
+}
+
+.maincontent {
+  position: relative;
+  display: inline-block;
+  top: 20px;
+  width: 60%;
+  height: 100vh;
+  float: right;
+  background: #d7dee8;
+  opacity: 0.68;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.info {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.contactme {
+  clear: both;
+  padding: 30px 0 20px 0;
+  text-align: center;
+}
+
+.addinfo {
+  font-style: italic;
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: lighter;
+}
+
+.project{
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.project p {
+  font-size: 30px;
+  width: 10px;
+  word-wrap: break-word;
+  font-family: 'Work Sans', sans-serif;
+  padding-left: 15px;
+  padding-top: 25px;
+  color: #fcfcf7;
+}
+
+p.project3 {
+  font-size: 25px;
+  width: 10px;
+  word-wrap: break-word;
+  font-family: 'Work Sans', sans-serif;
+  padding-left: 15px;
+  padding-top: 5px;
+  color: #fcfcf7;
+}
+
+.row {
+  margin-top: 20px;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-left: 10px;
+}
+
+.col-md-3 {
+  width:140px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.well {
+  position: absolute;
+  margin-right: 20px;
+}
+
+.proj-img1 {
+  background-image: url(../img/proj1.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.proj-img2 {
+  background-image: url(../img/proj2.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.proj-img3 {
+  background-image: url(../img/proj3.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.proj-img4 {
+  background-image: url(../img/proj4.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.self-image {
+  float:left;
+  margin-right: 10px;
+  margin-left: 4px;
+}
+
+.self-photo {
+  height: 180px;
+  border-radius: 50%;
+}
+
+.my-info {
+  position: relative;
+  top: 40px;
+  left: 10px;
+}
+
+.btn {
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.random {
+  text-decoration: line-through;
+}
