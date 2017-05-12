@@ -14,8 +14,7 @@ namespace Portfolio.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            var starredList = Github.GetHub();
-            return View(starredList);
+            return View();
         }
     }
 }
