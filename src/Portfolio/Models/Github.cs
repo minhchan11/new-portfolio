@@ -19,7 +19,7 @@ namespace Portfolio.Models
 
             var request = new RestRequest("/users/minhchan11/starred", Method.GET);
             request.AddHeader("User-Agent", "minhchan11");
-            request.AddParameter("Authorization", "token 0133da5f5cd2306696e31977186c3fa695a9f68c", ParameterType.HttpHeader);
+            //request.AddParameter("Authorization", "token 0133da5f5cd2306696e31977186c3fa695a9f68c", ParameterType.HttpHeader);
 
             var response = new RestResponse();
 
