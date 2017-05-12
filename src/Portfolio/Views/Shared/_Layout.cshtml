@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+       <title>@ViewBag.Title</title>
+       <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Playfair+Display|Work+Sans:100,300" rel="stylesheet">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+       <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+<body>
+    <div class="intro">
+        <h1>Minh Phuong</h1>
+        <h2>Programming [Portfolio]</h2>
+    </div>
+
+    <!-- content start here -->
+    <div class="container">
+
+        <!-- sidebar -->
+        <div class="sidebar">
+            <p class="list">Specialties and Expertise</p>
+            <hr>
+            <ul>
+                <li>Web Design</li>
+                <li>Graphic Design</li>
+                <li>Fashion Design</li>
+                <li>Print Design</li>
+            </ul>
+            <hr>
+            <button type="button" class="btn  btn-outline-secondary btn-lg btn-block">@Html.ActionLink("Home", "Index", "Home")</button>
+            <button type="button" class="btn  btn-outline-secondary btn-lg btn-block">@Html.ActionLink("About Me", "Index", "About")</button>
+            @*<button type="button" class="btn  btn-outline-secondary btn-lg btn-block">C# Projects</button>
+            <button type="button" class="btn  btn-outline-secondary btn-lg btn-block">Android Apps</button>
+            <button type="button" class="btn  btn-outline-secondary btn-lg btn-block">Ruby on Rails</button>
+            <button type="button" class="btn  btn-outline-secondary btn-lg btn-block">Data Science</button>*@
+            <blockquote>
+                <p>“What separates design from art is that design is meant to be functional.”</p>
+                <footer>Cameron Moll</footer>
+            </blockquote>
+        </div>
+
+        <!-- main content on the right side -->
+        <div class="maincontent">
+                @RenderBody()
+            </div>
+        </div>
+</body>
+</html>
