@@ -5,23 +5,27 @@
 @model IEnumerable<Portfolio.Models.Github>
 
 <p class="info">Below are some examples of his projects.</p>
-<br />
 <ul>
-    <li>CLOVER: A dating social network with customized algorithm, users are matched by similarities in hobbies and personality in addition to proximity.<li>
-    <ul>
-        <li>Using C#, CSS3, HTML5, Nancy, DNVM, Razor, Microsoft SQL and SSMS to create a web application with CRUD functionality. Modify database creatively without the use of APIs. Incorporate UI trends in designing interface. Team Leader.</li>
-    </ul>
-<li>ONESTOP A travel web application to generate all the information needed for a destination such as airfare, attractions, accommodations, restaurants and videos with one search.<li>
-    <ul>
-        <li>Built using Node JS (Gulp and Bower), Javascript, CSS3, HTML5 and various APIs with AJAX calls to display comprehensive information on real time.</li>
-    </ul>
-<li>AMAL A website for a non-profit organization that helps Syrian refugees with information about resources. Connect volunteer and donors to refugees.
-<li>
-    <ul>
-        <li>Created with Node JS and Angular, utilized Firebase as database. Explore webscraping and APIs to compile neccessary information, as well as Stripe payment methods to create donation options.</li>
-    </ul>
-</li>
+    <li>
+        CLOVER: A dating social network with customized algorithm, users are matched by similarities in hobbies and personality in addition to proximity.
+        <ul>
+            <li>Using C#, CSS3, HTML5, Nancy, DNVM, Razor, Microsoft SQL and SSMS to create a web application with CRUD functionality. Modify database creatively without the use of APIs. Incorporate UI trends in designing interface. Team Leader.</li>
+        </ul>
+    </li>
+    <li>
+        ONESTOP A travel web application to generate all the information needed for a destination such as airfare, attractions, accommodations, restaurants and videos with one search.
+        <ul>
+            <li>Built using Node JS (Gulp and Bower), Javascript, CSS3, HTML5 and various APIs with AJAX calls to display comprehensive information on real time.</li>
+        </ul>
+    </li>
+    <li>AMAL A website for a non-profit organization that helps Syrian refugees with information about resources. Connect volunteer and donors to refugees.
+        <ul>
+            <li>Created with Node JS and Angular, utilized Firebase as database. Explore webscraping and APIs to compile neccessary information, as well as Stripe payment methods to create donation options.</li>
+        </ul>
+    </li>
 </ul>
+<br />
+
 <div class="row">
     <div class="col-md-3 project proj-img1">
         <p><a href="@Model.ElementAt(0).Url">Amal</a></p>
